@@ -1,0 +1,21 @@
+/**
+ * Subscribe Title
+ */
+
+.ish-subscribe-title {
+    font-size: 32px !important;
+    width: 100%;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.ish-subscribe-title.ish-subscribe-title--content {
+    text-align: left !important;
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    width: 70%;
+    margin: 6px 0;
+}

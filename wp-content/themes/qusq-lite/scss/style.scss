@@ -1,0 +1,114 @@
+/*!
+Theme Name: Qusq Lite
+Theme URI: https://ishyoboy.com/themes/qusq-pro/
+Author: IshYoBoy.com
+Author URI: http://ishyoboy.com/
+Description: Qusq Lite is a unique colourful portfolio theme, perfectly suitable for designers, freelancers & all kind of artist who want to show off their creative work with style. It covers all the necessary pages such a portfolio website might need.
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: qusq-lite
+Tags: two-columns, right-sidebar, grid-layout, custom-colors, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Qusq Lite is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*!-------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# FlexBox Grid System
+# Boilerplate Styles
+
+# Main Layout
+# Shortcodes
+# Fonts
+# Icons
+# Colors
+# Portfolio
+# Blog
+# Lightbox
+# Justified Gallery
+# Media Queries
+--------------------------------------------------------------*/
+
+
+
+/*!-------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import 'normalize.scss';
+
+
+/*!-------------------------------------------------------------
+# FlexBox Grid System
+--------------------------------------------------------------*/
+
+@import 'flexboxgrid.scss';
+
+
+/*!-------------------------------------------------------------
+# Boilerplate Styles
+--------------------------------------------------------------*/
+@import 'boilerplate.scss';
+
+
+/*!-------------------------------------------------------------
+# Main Layout
+--------------------------------------------------------------*/
+@import 'layout.scss';
+
+
+/*!-------------------------------------------------------------
+# Shortcodes
+--------------------------------------------------------------*/
+@import 'shortcodes-styles/shortcodes';
+
+
+/*!-------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+@import 'fonts.scss';
+
+
+/*!-------------------------------------------------------------
+# Icons
+--------------------------------------------------------------*/
+@import 'ish-icons.scss';
+
+
+/*!-------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+// MOVED TO colors.php to support customizer values
+
+
+/*!-------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+@import 'portfolio.scss';
+
+
+/*!-------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+@import 'blog.scss';
+
+
+/*!-------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+@import 'social-icons.scss';
+
+
+/*!-------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@import 'responsive.scss';

@@ -1,0 +1,17 @@
+/**
+ * Subscribe Content
+ */
+
+.ish-subscribe-disclaimer {
+    text-align: center;
+    font-size: 12px !important;
+    padding: 0 10%;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.ish-subscribe-disclaimer.ish-subscribe-disclaimer--content {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+}

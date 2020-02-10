@@ -1,0 +1,1200 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qusq Lite\n"
+"POT-Creation-Date: 2017-12-18 20:23+0100\n"
+"PO-Revision-Date: 2016-01-15 14:50+0100\n"
+"Last-Translator: IshYoBoy.com <hello@ishyoboy.com>\n"
+"Language-Team: IshYoBoy.com <hello@ishyoboy.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;_;__;_e;gettext;gettext_noop;_x;_ex;_n;_nx;_n_noop;"
+"_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: _gsdata_\n"
+"X-Poedit-SearchPathExcluded-1: js/bower\n"
+
+#: comments.php:31
+msgid "Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:60
+msgid "Qusq Lite"
+msgstr ""
+
+#: footer.php:60
+msgid "Theme"
+msgstr ""
+
+#: footer.php:63
+msgid "Proudly powered by"
+msgstr ""
+
+#: footer.php:63
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:66
+msgid "Created by"
+msgstr ""
+
+#: footer.php:66
+msgid "IshYoBoy.com"
+msgstr ""
+
+#: footer.php:73
+msgid "Back to Top"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:48
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:114
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:116
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:61
+msgid "Menu"
+msgstr ""
+
+#: header.php:81 inc/modules/subscribe-popup/subscribe-popup.php:35
+msgid "Close"
+msgstr ""
+
+#: header.php:106
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:143
+msgid "Another amazing template by IshYoBoy"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Side Nav Area"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Footer"
+msgstr ""
+
+#: inc/extras.php:23 template-parts/archive/archive.php:36
+msgid "on"
+msgstr ""
+
+#: inc/jetpack.php:337
+msgid "Previous Project"
+msgstr ""
+
+#: inc/jetpack.php:338
+msgid "Next Project"
+msgstr ""
+
+#: inc/modules/customizer-blog-sidebar/customizer-blog-sidebar.php:34
+msgid "Display Blog Sidebar in Articles"
+msgstr ""
+
+#: inc/modules/customizer-blog-sidebar/customizer-blog-sidebar.php:39
+msgid "Yes"
+msgstr ""
+
+#: inc/modules/customizer-blog-sidebar/customizer-blog-sidebar.php:40
+msgid "No"
+msgstr ""
+
+#: inc/modules/customizer-colors/customizer-colors.php:66
+msgid "Color"
+msgstr ""
+
+#: inc/modules/metabox-about-user/metabox-about-user.php:53
+msgid "Disable"
+msgstr ""
+
+#: inc/modules/metabox-about-user/metabox-about-user.php:54
+msgid "Page Author"
+msgstr ""
+
+#: inc/modules/metabox-about-user/metabox-about-user.php:63
+msgid "About Template Settings"
+msgstr ""
+
+#: inc/modules/metabox-about-user/metabox-about-user.php:69
+msgid "Display User Info"
+msgstr ""
+
+#: inc/modules/metabox-about-user/metabox-about-user.php:72
+msgid ""
+"Choose the user who's data will be loaded and displayed before the content."
+msgstr ""
+
+#: inc/modules/metabox-enabler/field-types/color-selector.php:10
+msgid "No Color"
+msgstr ""
+
+#: inc/modules/metabox-enabler/field-types/color-selector.php:37
+msgid "Theme Color"
+msgstr ""
+
+#: inc/modules/metabox-enabler/field-types/menu-select.php:10
+msgid "Default setting"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:31
+#: inc/modules/subscribe-popup/subscribe-popup.php:64
+msgid "&#127881; GET 14-DAY FREE SUPPORT!"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:32
+msgid ""
+"The access credentials will be <strong>sent right to your inbox</strong> "
+"after filling-in your e-mail address. You will get 14 days access with "
+"ability to open 1 new topic."
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:33
+msgid "Enter your email address..."
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:34
+msgid "Submit"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:36
+msgid ""
+"* The e-mail address will be used to deliver the above gift. We will "
+"occasionally send news about our themes and services with ability to "
+"unsubscribe at any time."
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:37
+msgid "Thank you!"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:38
+msgid "Error!"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:39
+msgid "There was an error requesting this feature."
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:40
+msgid ""
+"There was an error trying to connect to server. Please, make sure you have "
+"internet access."
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:65
+msgid "Get It!"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:97
+msgid ""
+"Server Problem! The server returned an error. Please report the problem to "
+"hello@ishyoboy.com"
+msgstr ""
+
+#: inc/modules/subscribe-popup/subscribe-popup.php:109
+msgid ""
+"Server Problem! The server returned an invalid response. Please report the "
+"problem to hello@ishyoboy.com"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:364
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:369
+msgid "Begin installing plugin"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:374
+msgid "Begin updating plugin"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:379
+msgid "Begin activating plugin"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:384
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:829
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2557
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3606
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3185
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2978
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:938
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:948
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:948
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:1137
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2974
+msgid "and"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2006
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2297
+msgid "Required"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2300
+msgid "Recommended"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2316
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "External Source"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2322
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2339
+msgid "Not Installed"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2343
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2345
+msgid "Active"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2351
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2354
+msgid "Requires Update"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2357
+msgid "Update recommended"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2366
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+#, php-format
+msgid "All <span class=\"count\">( %s )</span>"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2416
+#, php-format
+msgid "To Install <span class=\"count\">( %s )</span>"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+#, php-format
+msgid "Update Available <span class=\"count\">( %s )</span>"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2424
+#, php-format
+msgid "To Activate <span class=\"count\">( %s )</span>"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2506
+msgid "unknown"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2514
+msgid "Installed version:"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2522
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2534
+msgid "Available version:"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2557
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2571
+msgid "Plugin"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2572
+msgid "Source"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2573
+msgid "Type"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2577
+msgid "Version"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2578
+msgid "Status"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2627
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2638
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2708
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2741
+msgid "Install"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2747
+msgid "Update"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2750
+msgid "Activate"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2781
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2783
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2824
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2826
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:2960
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3184
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3524
+#, php-format
+msgid "Updating Plugin %1$s ( %2$d/%3$d )"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3527
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3529
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3533
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3535
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3536
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3538
+#, php-format
+msgid "Installing and Activating Plugin %1$s ( %2$d/%3$d )"
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3541
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3543
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3544
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/modules/tgm-plugin-activation/class-tgm-plugin-activation.php:3546
+#, php-format
+msgid "Installing Plugin %1$s ( %2$d/%3$d )"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:80
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:94
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:116
+msgid "Setting available only in Pro Version"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:80
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:87
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:94
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:116
+msgid "Pro"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:87
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:41
+msgid "Get Pro Version"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:168
+#, php-format
+msgid ""
+"Need help with Qusq? All %1$s users have free support. Come and join us in "
+"the %2$s"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:169
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:184
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:185
+#: inc/mu-modules/customizer-promo-section/class-qusq-customize.php:82
+msgid "Qusq Pro"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:170
+msgid "Pro Club!"
+msgstr ""
+
+#: inc/mu-modules/customizer-enhancement/customizer-enhancement.php:183
+#, php-format
+msgid ""
+"Enjoying Qusq? Get %1$s and enjoy many more features & professional support! "
+"Learn more about %2$s"
+msgstr ""
+
+#: inc/mu-modules/customizer-promo-section/class-qusq-customize.php:83
+msgid "Lite vs. Pro"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:12
+msgid "1. Install Required Plugins"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:13
+msgid ""
+"They will add lot of cool stuff like Portfolios, Infinite Scroll, Contact "
+"Forms, Tiled Galleries, Image Carousel, Sharing buttons, Comment Likes, "
+"Widgets and many more..."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:15
+msgid "View Required Plugins"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:19
+#, php-format
+msgid "2. Customize %1$s"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:20
+msgid ""
+"By using the WordPress Customizer you can easily customize every aspect of "
+"the theme. Make sure to check the \"Theme Options\" tab."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:22
+msgid "Start Customizer"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:25
+msgid "3. Read The Documentation"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:26
+msgid ""
+"Need any help to setup and configure the theme? Please check our full "
+"documentation for detailed information on how to use it."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:28
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:31
+msgid "4. Get Our Help"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:32
+msgid ""
+"You have already read the documentation, but still need help with setting up "
+"and configuring the theme? We are here to help!"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:34
+msgid "Visit Support Forum"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:37
+msgid "5. Import Demo Content"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:39
+#, php-format
+msgid ""
+"If you're looking for %1$s to look exactly like the live demo, either get "
+"the Pro Version and import the content yourself or request our Premium Theme "
+"Installation & Setup service."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/getting-started.php:42
+msgid "Premium Theme Setup"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:14
+msgid "Lite"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:15
+msgid "PRO"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:21
+msgid "Fast & SEO Optimized"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:22
+msgid ""
+"Works in any browsers on desktops, tablets and mobile devices and optimized "
+"for speed."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:23
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:32
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:41
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:50
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:59
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:68
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:77
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:86
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:95
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:104
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:113
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:122
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:131
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:140
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:149
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:158
+msgid "Preview >>"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:30
+msgid "Portfolio & Blog Sections"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:31
+msgid ""
+"Display your latest projects, works and thoughts in a unique and colorful "
+"way."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:39
+msgid "JetPack Compatibility"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:40
+msgid "Get the most of the amazing features JetPack plugin provides."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:48
+msgid "Free Support"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:49
+msgid ""
+"Need help or simply have a question about the theme. We are here for you!"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:57
+msgid "Demo Content Included"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:58
+msgid ""
+"Don't waste time creating everything from scratch. Import the demo content "
+"in minutes."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:66
+msgid "4 Portfolio Layouts"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:67
+msgid "Customize the Portfolio section with various layout styles & options."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:75
+msgid "2 Blog Layouts"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:76
+msgid "Customize the Blog section with various layout styles & options."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:84
+msgid "Team Page Layout"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:85
+msgid "Page Layout to display all members of your team with image and details."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:93
+msgid "Google Maps Integration"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:94
+msgid ""
+"Display a Styled Google Map with information about your place right on the "
+"contact page."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:102
+msgid "Per-Page Colors Picker"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:103
+msgid ""
+"Easily pick the right color for the title section of your current page or "
+"post."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:111
+msgid "Unlimited Colors"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:112
+msgid ""
+"Be able to use and edit the full list of theme colors. Not only the default "
+"4 colors."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:120
+msgid "Text Highlighter"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:121
+msgid ""
+"Highlight some words in the text & titles with theme colors using the built-"
+"in text highlighter."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:129
+msgid "Theme Updates"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:130
+msgid ""
+"Always get the latest fixes & new features right from the WordPress "
+"Dashboard with a single click."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:138
+msgid "More Customizer Options"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:139
+msgid ""
+"Tweak much more parts of the website directly from the WordPress Customizer."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:147
+msgid "Child Theme"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:148
+msgid ""
+"Save time and use the included pre-made starter Child Theme to easily "
+"override code or add functionality. "
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:156
+msgid "New Features & Integrations"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:157
+msgid ""
+"We are constantly adding new features and plugins integrations based on your "
+"requests. Only for PRO version."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/pro.php:166
+msgid "Get Qusq Pro now"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:12
+msgid "Theme Customization"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:13
+msgid ""
+"Need to do special modifications beyond the scope of our standard theme "
+"support to your website? Contact us..."
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:15
+msgid "Contact us"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:18
+msgid "Theme Installation & Setup"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:19
+msgid ""
+"Having difficulties or technical issues with theme installation & setup? Let "
+"us know and we can do it for you!"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:21
+msgid "Order Installation"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:24
+msgid "Custom Development"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:25
+msgid ""
+"Looking for skilled and reliable developers to help you craft your project "
+"and help you get the maximum out of it?"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/services.php:27
+msgid "Request a Quote"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/tabs.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/tabs.php:11
+msgid "Free vs. PRO"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/tabs.php:12
+msgid "Our Services"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/welcome.php:12
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: inc/mu-modules/qusq-dashboard/sections/welcome.php:17
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed %1$s. It is ready to serve "
+"you with its full potential. There are just a few more steps necessary to "
+"finalize the setup of the theme and to learn more about its features."
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:35
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:71
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:87 template-parts/content-page.php:31
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:338
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:340
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:342
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:395
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:400
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:412
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:492 inc/template-tags.php:494
+msgid "Name"
+msgstr ""
+
+#: inc/template-tags.php:498 inc/template-tags.php:500
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:504 inc/template-tags.php:506
+msgid "Website"
+msgstr ""
+
+#: inc/template-tags.php:510
+msgid "Comment"
+msgstr ""
+
+#: inc/template-tags.php:510
+msgid "Message"
+msgstr ""
+
+#: inc/template-tags.php:511
+msgid "Add Comment"
+msgstr ""
+
+#: inc/template-tags.php:514
+msgid "Cancel reply"
+msgstr ""
+
+#: inc/template-tags.php:548
+msgid "404 <span>Ooops!</span>"
+msgstr ""
+
+#: inc/template-tags.php:549
+msgid "Seems like there's <span>no such page</span>."
+msgstr ""
+
+#: inc/template-tags.php:550
+msgid ""
+"We've searched more than 404 pages and none of them seems to be the one you "
+"were looking for. Why don't you have a look around? Start in the main menu..."
+msgstr ""
+
+#: inc/template-tags.php:581
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/template-tags.php:621 inc/template-tags.php:632
+#: inc/template-tags.php:659 inc/template-tags.php:686
+msgid "Post Here"
+msgstr ""
+
+#: inc/template-tags.php:621 inc/template-tags.php:632
+#: inc/template-tags.php:659 inc/template-tags.php:686
+msgid "Posts Here"
+msgstr ""
+
+#: inc/template-tags.php:717
+msgid "on "
+msgstr ""
+
+#: inc/template-tags.php:721
+msgid " / "
+msgstr ""
+
+#: inc/template-tags.php:722
+msgid "in "
+msgstr ""
+
+#: inc/template-tags.php:747 inc/template-tags.php:750
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: inc/template-tags.php:921
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:922
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:923
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:1047
+msgid "Color "
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: single.php:31
+msgid "Previous Article"
+msgstr ""
+
+#: single.php:32
+msgid "Next Article"
+msgstr ""
+
+#: template-parts/archive/archive.php:38
+msgid "in"
+msgstr ""
+
+#: template-parts/archive/archive.php:40
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content.php:45
+#: template-parts/single/single-portfolio-default.php:63
+#: template-parts/single/single-portfolio-left.php:95
+#: template-parts/single/single-portfolio-right.php:95
+#: template-parts/single/single.php:45
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:34
+#: template-parts/single/single-portfolio-default.php:52
+#: template-parts/single/single-portfolio-left.php:84
+#: template-parts/single/single-portfolio-right.php:84
+#: template-parts/single/single.php:34
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/contact.php:34
+msgid "Send a Message"
+msgstr ""

@@ -1,0 +1,404 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Vars
+
+# Portfolio
+# Portfolio - Squared
+# Portfolio - Templates
+# Portfolio - Navigation
+# Animation - Move Up
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Vars
+--------------------------------------------------------------*/
+$caption_container_width: 50;
+$caption_height: 30;
+$vertical_margin: 150;
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.ish-pflo-gal {
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        /*box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);*/
+    }
+
+    .ish-item {
+        display: table;
+        width: 100%;
+
+        .ish-item-container {
+            display: table;
+            width: 100%;
+            position: relative;
+        }
+
+        .ish-caption-container, .ish-img {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        .ish-caption-container {
+            height: 100%;
+            width: $caption_container_width * 1px;
+        }
+
+        .ish-img {
+            max-width: calc(100% - (#{$caption_container_width} * 1px));
+
+            .ish-placeholder {
+                display: block;
+                overflow: hidden;
+                box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+                max-width: 100%;
+                width: 100%;
+
+                &:before {
+                    content: " ";
+                    display: block;
+                    position: relative;
+                    padding-top: 75%;
+                }
+            }
+        }
+
+        .ish-caption {
+            position: absolute;
+            bottom: 0;
+            transform: rotate(-90deg);
+            transform-origin: bottom left 0;
+            left: $caption_height * 1px;
+            backface-visibility: hidden;
+            white-space: nowrap;
+            line-height: $caption_height * 1px;
+            height: $caption_height * 1px;
+
+            & > * {
+                line-height: $caption_height * 1px;
+            }
+        }
+
+        &:nth-child(2n + 1) .ish-item-container {
+            direction: rtl;
+
+            & > div {
+                direction: ltr;
+            }
+
+            .ish-caption {
+                left: 100%;
+                direction: rtl;
+            }
+        }
+
+    }
+}
+
+.ish-pflo-gal.ish-1col,
+.ish-pflo-gal.ish-2col {
+
+    .ish-item {
+        padding-bottom: 50px
+
+    }
+}
+
+/*--------------------------------------------------------------
+# Portfolio - Squared
+--------------------------------------------------------------*/
+.ish-pflo-gal.ish-square {
+
+    .ish-img {
+        overflow: hidden;
+        position: relative;
+        box-shadow: 10px 10px 0 rgba(0, 0, 0, .1);
+
+        a {
+            box-shadow: none;
+
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            &.ish-img-scale:hover {
+                transform: scale(1.15);
+            }
+        }
+
+        &:before {
+            padding-top: 100%;
+            content: '';
+            display: block;
+        }
+
+        &.ish-no-img {
+            &:before {
+                display: none
+            }
+
+            .ish-placeholder:before {
+                padding-top: 100%;
+            }
+
+        }
+
+        img {
+            opacity: 0;
+            display: block;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+# Animation - Move Up
+--------------------------------------------------------------*/
+.ish-pflo-gal.ish-scroll-anim .ish-item {
+    opacity: 1;
+}
+
+.ish-pflo-gal.ish-scroll-anim .ish-item.shown {
+    opacity: 1;
+}
+
+.ish-pflo-gal.ish-scroll-anim .ish-item.animate {
+    transform: translateY(200px);
+    animation: ishMoveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes ishMoveUp {
+    0% {
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ishMoveUp {
+    0% {
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*--------------------------------------------------------------
+# Portfolio - Templates
+--------------------------------------------------------------*/
+.page-template-portfolio {
+    .ish-caption-container span:not(.ish-h4) {
+        display: none;
+    }
+}
+
+/*--------------------------------------------------------------
+# Portfolio - Navigation
+--------------------------------------------------------------*/
+.ish-portfolio-navigation {
+
+    a,
+    .ish-disabled {
+        text-decoration: none;
+        position: relative;
+
+        span {
+            display: none;
+
+        }
+
+    }
+}
+
+/*--------------------------------------------------------------
+# Image With Shadow
+--------------------------------------------------------------*/
+.ish-shadow-image {
+
+    .ish-item {
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        display: table;
+        width: 100%;
+
+        .ish-item-container {
+            display: table;
+            width: 100%;
+            position: relative;
+        }
+
+        .ish-caption-container, .ish-img {
+            display: table-cell;
+        }
+
+        .ish-caption-container {
+            height: 100%;
+            width: $caption_container_width * 1px;
+        }
+
+        .ish-img {
+            max-width: calc(100% - (#{$caption_container_width} * 1px));
+
+            a {
+                display: block;
+                overflow: hidden;
+                box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+
+                img {
+                    box-shadow: none;
+                    transition-duration: 0.6s;
+                }
+            }
+
+            a:hover img {
+                transform: scale(1.15);
+            }
+
+            .ish-placeholder {
+                display: block;
+                overflow: hidden;
+                box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+                max-width: 100%;
+                width: 100%;
+
+                &:before {
+                    content: " ";
+                    display: block;
+                    position: relative;
+                    padding-top: 133%;
+                }
+            }
+        }
+
+        .ish-caption {
+            position: absolute;
+            z-index: 4;
+            transform: rotate(-90deg);
+            transform-origin: bottom left 0;
+            bottom: 0;
+            left: $caption_height * 1px;
+            white-space: nowrap;
+            line-height: $caption_height * 1px;
+            height: $caption_height * 1px;
+            & > * {
+                line-height: $caption_height * 1px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    &.ish-captions-right {
+
+        .ish-item-container {
+            direction: rtl;
+
+            & > div {
+                direction: ltr;
+            }
+
+            .ish-caption {
+                left: 100%;
+                bottom: 0;
+                direction: rtl;
+            }
+        }
+
+    }
+}
+
+/*--------------------------------------------------------------
+# Team - Templates
+--------------------------------------------------------------*/
+.page-template-team {
+    .site-content .ish-row {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .ish-item {
+        margin-bottom: 30px;
+
+        .ish-caption {
+            opacity: 0.5;
+        }
+
+        .ish-caption-social-icons {
+            transform: none;
+            left: 0;
+            width: $caption_height * 1px;
+            height: auto;
+            line-height: normal;
+
+            a {
+                display: block;
+                text-align: center;
+                padding: 10px 0 0;
+                z-index: 10;
+
+                @include transition-on;
+                backface-visibility: hidden;
+                transform: translatez(0);
+                opacity: 0.5;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                i {
+                    display: inline-block;
+                }
+            }
+        }
+
+        .ish-caption-container {
+            vertical-align: bottom;
+        }
+    }
+
+    .ish-captions-right {
+
+        .ish-item-container {
+
+            .ish-caption-social-icons {
+                right: 0;
+                left: auto;
+            }
+        }
+
+    }
+
+    .ish-team-archive-content {
+        > :last-child {
+            margin-bottom: 0;
+        }
+    }
+}

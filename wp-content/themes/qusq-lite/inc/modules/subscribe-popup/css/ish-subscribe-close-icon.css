@@ -1,0 +1,40 @@
+/**
+ * Subscribe Close Icon
+ */
+
+.ish-subscribe-close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+    font-weight: 600;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.ish-subscribe-close-icon:hover {
+    opacity: 1;
+    transform: rotate(-180deg);
+}
+.ish-subscribe-close-icon:before, .ish-subscribe-close-icon:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.ish-subscribe-close-icon:before {
+    transform: rotate(45deg);
+}
+.ish-subscribe-close-icon:after {
+    transform: rotate(-45deg);
+}

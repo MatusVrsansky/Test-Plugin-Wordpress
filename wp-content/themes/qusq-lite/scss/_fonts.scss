@@ -1,0 +1,179 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Vars
+# Fonts
+# Media Query
+## 768px
+## 1024px
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Vars
+--------------------------------------------------------------*/
+$size: 16;
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+body,
+#map *,
+.ish-contact-form-box * h3,
+.widget_wpcom_social_media_icons_widget a {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    font-weight: normal;
+}
+
+h1, .ish-h1, #map h1 {
+    font-size: 50px;
+    line-height: calc(100 / 90);
+    font-weight: normal;
+}
+
+h2, .ish-h2, #map h2,
+.ish-result .ish-result-number,
+.site-branding h2 p {
+    font-size: 40px;
+    line-height: calc(70 / 60);
+    font-weight: normal;
+}
+
+h3, .ish-h3, #map h3,
+.ish-social-box-contact li {
+    font-size: 30px;
+    line-height: calc(50 / 40);
+    font-weight: normal;
+}
+
+h4, .ish-h4, #map h4,
+.site-branding .site-desc,
+.site-branding h3,
+.site-branding p,
+.site-branding,
+.ish-icon-nav i,
+.ish-portfolio-navigation,
+.sharedaddy.sd-sharing-enabled .sd-title {
+    font-size: 25px;
+    line-height: calc(35 / 25);
+    font-weight: normal;
+}
+
+h5, .ish-h5, #map h5,
+.post-meta-key,
+.ish-footer .ish-social-box {
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    font-weight: normal;
+}
+
+h6, .ish-h6, #map h6,
+.ish-pflo-gal.ish-2col .ish-title,
+.ish-navigation ul ul,
+.ish-footer .ish-legals {
+    font-size: 16px;
+    line-height: calc(25 / 16);
+    font-weight: normal;
+}
+
+#map h4, #map h5, #map h6 {
+    font-size: 15px;
+}
+
+#map p, #map div, #map span, #map i, #map a {
+    font-size: 12px;
+}
+
+.required-error:before,
+.required-error:after,
+span.wpcf7-not-valid-tip,
+.ish-blog .ish-blog-post-details {
+    font-size: 14px;
+}
+
+.tiled-gallery-caption,
+.widget_tag_cloud .tagcloud .tag-cloud-link {
+    font-size: 14px !important;
+}
+
+.widget_recent_entries ul span,
+.widget_rss ul span,
+.ish-widget-recent-tweets .tweet-details {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.ish-nav-close i,
+.ish-back-to-top i,
+.ish-contact-info-container i {
+    font-size: 120%;
+}
+
+header .ish-tagline-widget {
+    font-weight: 600;
+}
+
+.justified-gallery > a > .caption,
+.justified-gallery > div > .caption {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: calc(30 / 18);
+    font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## 768px / 48em
+--------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    h1, .ish-h1, #map h1 {
+        font-size: 70px;
+    }
+
+    h2, .ish-h2, #map h2,
+    .site-branding h2 p {
+        font-size: 50px;
+    }
+
+    h3, .ish-h3, #map h3 {
+        font-size: 35px;
+    }
+
+    #map h4 {
+        font-size: 25px;
+    }
+
+    #map h5 {
+        font-size: 20px;
+    }
+
+    #map h6 {
+        font-size: 16px;
+    }
+
+    #map p, #map div, #map span, #map i, #map a {
+        font-size: 18px;
+    }
+}
+
+/*--------------------------------------------------------------
+## 1024px / 64em
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+    h1, .ish-h1, #map h1 {
+        font-size: 90px;
+    }
+
+    h2, .ish-h2, #map h2,
+    .site-branding h2 p {
+        font-size: 60px;
+    }
+
+    h3, .ish-h3, #map h3 {
+        font-size: 40px;
+    }
+}

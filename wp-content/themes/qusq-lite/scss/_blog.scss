@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Vars
+
+# Blog
+# Single Post Navigation
+# Blog - Templates
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Vars
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.ish-blog-masonry,
+.ish-blog-classic {
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ish-item {
+        display: table;
+        width: 100%;
+        //padding-bottom: 50px;
+
+        .ish-blog-post-title {
+            a {
+                text-decoration: none;
+            }
+
+            i {
+                &:before{
+                    margin-left: -3px;
+                }
+            }
+        }
+
+        .ish-blog-post-media + .ish-blog-post-title {
+            > *:first-child {
+                margin-top: 50px;
+            }
+        }
+
+        .ish-row {
+            padding-bottom: 50px;
+        }
+
+        .ish-blog-post-details {
+            margin-bottom: 50px;
+
+            .ish-label {
+                opacity: 0.5;
+            }
+
+            .ish-read-more {
+                margin-top: 14px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .ish-blog-post-content {
+            p:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.ish-blog-classic {
+    .ish-item {
+        padding-bottom: 50px;
+
+        &:last-child {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.sticky {
+    text-decoration: inherit;
+}
+
+/*--------------------------------------------------------------
+# Single Post Navigation
+--------------------------------------------------------------*/
+.ish-post-navigation {
+    .ish-separator {
+        opacity: 0.5;
+    }
+
+    .nav-previous ~ .nav-next:before {
+        content: '/';
+        opacity: 0.5;
+        padding: 0 8px;
+    }
+
+    .nav-links {
+        text-align: center;
+
+        @include clearfix;
+
+        div {
+            display: inline;
+        }
+    }
+
+    a,
+    .ish-disabled {
+        text-decoration: none;
+        position: relative;
+
+        span {
+            display: none;
+
+        }
+
+    }
+}
+
+/*--------------------------------------------------------------
+# Blog - Templates
+--------------------------------------------------------------*/
+.page-template-blog,
+.page-template-blog-detail {
+    /*.site-content
+    {
+        margin-top: -80px;
+    }*/
+}

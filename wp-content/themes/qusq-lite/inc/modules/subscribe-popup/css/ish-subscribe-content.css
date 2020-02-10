@@ -1,0 +1,16 @@
+/**
+ * Subscribe Content
+ */
+
+.ish-subscribe-content {
+    text-align: center;
+    font-size: 16px !important;
+    padding: 0 30px 30px;
+    margin: 0;
+}
+
+.ish-subscribe-content.ish-subscribe-content--content {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}

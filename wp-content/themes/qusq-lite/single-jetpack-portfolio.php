@@ -1,0 +1,33 @@
+<?php
+/**
+ * The template for displaying all single posts.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ *
+ * @package Qusq_Lite
+ */
+
+get_header(); ?>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+			<div class="ish-container-fluid">
+				<div class="ish-container-inner">
+
+					<div id="ish-main-content" class="<?php echo esc_attr( qusq_lite_main_content_classes( array( 'ish-content-parallax' ) ) ); ?>">
+						<?php
+						while ( have_posts() ) : the_post();
+
+							get_template_part( 'template-parts/single/single-portfolio-default' );
+
+						endwhile; // End of the loop.
+						?>
+					</div>
+				</div>
+			</div>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_footer();

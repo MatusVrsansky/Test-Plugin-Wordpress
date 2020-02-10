@@ -1,0 +1,122 @@
+.about-wrap .wp-badge {
+	background-image: url(../images/logo.png);
+	background-color: #fff;
+	color: #222;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.wp-badge:hover {
+	text-decoration: none;
+}
+
+.feature-section.two-col {
+	align-items: flex-start;
+}
+
+.feature-section.two-col h3:not(:first-child) {
+	margin-top: 3em;
+}
+
+.feature-section img {
+	display: block;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.nav-tab-active:focus {
+	box-shadow: none;
+}
+
+.ish-tab-pane {
+	display: none;
+}
+
+.ish-is-active {
+	display: block;
+}
+
+.form-table tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.form-table th,
+.form-table td {
+	display: table-cell;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-table th {
+	padding-left: 10px;
+}
+
+.form-table th:not(:first-child),
+.form-table td:not(:first-child) {
+	width: 15%;
+	text-align: center;
+}
+
+.about-wrap td h3 {
+	margin-top: 0;
+}
+
+.about-wrap .feature-section.one-col {
+    margin: 0;
+}
+
+.form-table .dashicons {
+	font-size: 35px;
+	width: 35px;
+	height: 35px;
+}
+
+.form-table .dashicons-yes {
+	color: green;
+}
+
+.form-table .dashicons-no {
+	color: red;
+}
+
+.feature-section h3 {
+    display: inline-block;
+    position: relative;
+}
+
+.feature-section .ish-profile-nag {
+    display: inline-block;
+    position: relative;
+}
+
+.feature-section .ish-profile-nag a {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+
+    background: #555d66;
+    color: #fff;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 3px;
+
+    font-size: 11px;
+    padding: 1px 6px 0;
+    margin-top: 0;
+
+    pointer-events: auto;
+    cursor: hand;
+
+    opacity: .5;
+
+    transition: all 0.3s linear;
+
+    right: auto;
+    left: 0;
+    top: -24px;
+    bottom: auto;
+}
+.ish-profile-nag a:hover {
+    opacity: 1;
+}

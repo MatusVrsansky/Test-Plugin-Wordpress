@@ -1,0 +1,105 @@
+/**
+ * Ish Metaboxes
+ */
+*[id$="-lite-promo_boxitem"] {
+    pointer-events: none;
+    opacity: .5;
+}
+._ishmb_container {
+    position: relative;
+}
+.metabox-nag a {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: 7px;
+
+    background: #555d66;
+    color: #fff;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 3px;
+
+    font-size: 11px;
+    padding: 1px 6px 0;
+    margin-top: 0;
+
+    pointer-events: auto;
+    cursor: hand;
+
+    opacity: .5;
+
+    transition: all 0.3s linear;
+}
+.metabox-nag a:hover {
+    opacity: 1;
+}
+
+/**
+ * Page Templates Metabox
+ */
+#pageparentdiv .inside {
+    display: flex;
+    flex-direction: column;
+}
+#pageparentdiv .post-attributes-label-wrapper{
+    position: relative;
+}
+#pageparentdiv .post-attributes-label-wrapper .metabox-nag {
+    position: absolute;
+    right: 0;
+}
+#pageparentdiv .post-attributes-label-wrapper .metabox-nag a {
+    right: 0;
+}
+#page_templates_pro_container {
+    pointer-events: none;
+    opacity: .5;
+}
+#page_templates_pro_container label{
+    display: block;
+}
+
+/**
+ * Profile Page
+ */
+tr[class*="-lite-promo"] td {
+    pointer-events: none;
+    opacity: .5;
+}
+.profile-php .form-table th label {
+    display: block;
+    position: relative;
+}
+.ish-profile-nag {
+    position: absolute;
+    right: 0;
+}
+.ish-profile-nag a {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: 0;
+
+    background: #555d66;
+    color: #fff;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 3px;
+
+    font-size: 11px;
+    padding: 1px 6px 0;
+    margin-top: 0;
+
+    pointer-events: auto;
+    cursor: hand;
+
+    opacity: .5;
+
+    transition: all 0.3s linear;
+}
+.ish-profile-nag a:hover {
+    opacity: 1;
+}

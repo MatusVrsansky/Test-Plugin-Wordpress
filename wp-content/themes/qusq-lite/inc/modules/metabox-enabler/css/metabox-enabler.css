@@ -1,0 +1,114 @@
+/***
+ * ISH ALL BTN SELECTORS
+ */
+
+.ish_meta_param ul.ish_btnlist_list{
+    margin: 0;
+}
+
+.ish_meta_param .ish_btnlist_list li{
+    display: block;
+    margin-right: 5px;
+    float: left;
+}
+
+.ish_meta_param .ish_btnlist_list li a{
+    display: inline-block;
+    border-color: #dfdfdf;
+    width: 31px;
+    height: 31px;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 31px;
+    color: #000000;
+
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -ms-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+
+    box-sizing: border-box;
+
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    transition-property: all;
+}
+
+.ish_meta_param .ish_btnlist_list li a:hover,
+.ish_meta_param .ish_btnlist_list li.active a{
+    border-color: #999999;
+    box-shadow: 0 0 6px #888888;
+}
+
+.ish_meta_param .ish_btnlist_list li a:hover span,
+.ish_meta_param .ish_btnlist_list li.active a span{
+    opacity: 1;
+}
+
+/***
+ * ISH COLOR SELECTOR
+ */
+.ish_meta_param .ish_color_selector_list li a{
+    font-size: 12px;
+}
+
+.ish_meta_param .ish_btnlist_list li a span {
+    opacity: .4;
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -ms-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.ish_meta_param .ish_color_selector_list li a.ish-icon-cog{
+    opacity: 1;
+    background-color: #dfdfdf;
+    color: #ffffff;
+    border-color: #dfdfdf;
+    font-size: 16px;
+}
+
+.ish_meta_param .ish_btnlist_list li a.ish-icon-noneselected:hover,
+.ish_meta_param .ish_btnlist_list li.active a.ish-icon-noneselected:hover{
+    background-color: #dfdfdf;
+    color: #ffffff;
+    border-color: #dfdfdf;
+    box-shadow: none;
+}
+.ish_meta_param .ish_btnlist_list li.active a.ish-icon-noneselected{
+    background-color: transparent;
+    border-color: #dfdfdf;
+    box-shadow: none;
+}
+
+.ish_meta_param .ish_btnlist_list li a.ish-icon-noneselected{
+    color: #dfdfdf;
+    font-family: Arial, sans-serif;
+}
+
+#ishyoboy_color_settings span.description,
+#ishyoboy_portfolio_settings span.description {
+    clear: both;
+    display: block;
+}
+
+div.updated.ishyoboy_vc_version_notice{
+    border-left-color: #2ea2cc;
+}
+
+.howto {
+    clear: both;
+}
+
+input[type="checkbox"] + .howto {
+    display: inline;
+}

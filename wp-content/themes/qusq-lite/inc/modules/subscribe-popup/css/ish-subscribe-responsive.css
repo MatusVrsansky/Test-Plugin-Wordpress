@@ -1,0 +1,26 @@
+/**
+ * Subscribe Responsive
+ */
+
+@media (min-width: 768px) {
+    .ish-subscribe-popup__box {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .ish-subscribe-form {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .ish-subscribe-form.ish-subscribe-form--content {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ish-subscribe-popup__box.ish-subscribe-popup__box--content {
+        max-width: calc(100% - 200px);
+    }
+}
